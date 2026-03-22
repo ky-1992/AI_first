@@ -1,8 +1,29 @@
+# Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# Build outputs
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio / IntelliJ
 *.iml
-.gradle
+.idea/
+*.ipr
+*.iws
 local.properties
-.idea
+
+# macOS
 .DS_Store
-build
-captures
-.externalNativeBuild
+*.DS_Store
+
+# Keystore
+*.jks
+*.keystore
+
+# Generated files
+app/build/
