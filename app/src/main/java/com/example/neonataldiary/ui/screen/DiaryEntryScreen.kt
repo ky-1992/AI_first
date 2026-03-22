@@ -65,10 +65,10 @@ import java.time.format.DateTimeFormatter
 fun DiaryEntryScreen(
     onSaveSuccess: () -> Unit,
     onBack: () -> Unit,
-    viewModel: DiaryViewModel = hiltViewModel(),
-    mediaHelper: MediaHelper = remember { MediaHelper(LocalContext.current) }
+    viewModel: DiaryViewModel = hiltViewModel()
 ) {
     val context = LocalContext.current
+    val mediaHelper = remember { MediaHelper(context) }
     val scope = rememberCoroutineScope()
     val snackbarHostState = remember { SnackbarHostState() }
     val uiState by viewModel.uiState.collectAsState()

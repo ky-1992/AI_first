@@ -216,7 +216,7 @@ private fun MediaGrid(
 ) {
     LazyVerticalGrid(
         columns = GridCells.Fixed(3),
-        modifier = modifier.height((media.size / 3 + 1) * 120.dp),
+        modifier = modifier.height(((media.size / 3 + 1) * 120).dp),
         horizontalArrangement = Arrangement.spacedBy(8.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp),
         userScrollEnabled = false
