@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">新生儿日记</string>
+    <string name="add_diary">添加日记</string>
+    <string name="diary_list">日记列表</string>
+    <string name="diary_detail">日记详情</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="back">返回</string>
+    
+    <string name="date">日期</string>
+    <string name="feeding">喂养情况</string>
+    <string name="mood">情绪状态</string>
+    <string name="weight">体重 (kg)</string>
+    <string name="note">备注</string>
+    
+    <string name="add_image">添加图片</string>
+    <string name="add_video">添加视频</string>
+    <string name="take_photo">拍照</string>
+    <string name="pick_from_album">从相册选择</string>
+    
+    <string name="empty_diary_list">暂无日记</string>
+    <string name="empty_diary_list_hint">点击 + 按钮添加第一条日记</string>
+    <string name="add_first_diary">添加日记</string>
+    
+    <string name="delete_confirm_title">确认删除</string>
+    <string name="delete_confirm_message">确定要删除这条日记吗？此操作不可撤销。</string>
+    
+    <string name="permission_camera_title">相机权限</string>
+    <string name="permission_camera_rationale">需要相机权限来拍照</string>
+    <string name="permission_storage_title">存储权限</string>
+    <string name="permission_storage_rationale">需要存储权限来保存和读取媒体文件</string>
+    <string name="permission_denied">权限被拒绝，部分功能可能无法使用</string>
+    <string name="go_to_settings">去设置</string>
+    
+    <string name="error_save_failed">保存失败，请重试</string>
+    <string name="error_load_failed">加载失败</string>
+    <string name="error_media_save_failed">媒体保存失败</string>
+    <string name="success_saved">保存成功</string>
+    <string name="success_deleted">删除成功</string>
+    
+    <string name="select_date">选择日期</string>
+    <string name="today">今天</string>
+</resources>
