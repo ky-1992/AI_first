@@ -6,6 +6,7 @@ gradlew.bat
 
 # Build outputs
 build/
+app/build/
 captures/
 .externalNativeBuild/
 .cxx/
@@ -13,17 +14,11 @@ captures/
 # Android Studio / IntelliJ
 *.iml
 .idea/
-*.ipr
-*.iws
 local.properties
 
 # macOS
 .DS_Store
-*.DS_Store
 
 # Keystore
 *.jks
 *.keystore
-
-# Generated files
-app/build/
